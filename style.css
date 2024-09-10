@@ -1,0 +1,82 @@
+/* 스타일을 위한 CSS 파일 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+}
+
+h1 {
+    color: #4b57ff;
+    margin-bottom: 20px;
+}
+
+#result_area {
+    margin: 20px 0;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+}
+
+#chance_area {
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+}
+
+#user_input {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+#button_container {
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    width: 48%;
+    padding: 10px;
+    font-size: 1rem;
+    color: white;
+    background-color: #4b57ff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:disabled {
+    background-color: rgba(75, 87, 255, 0.4);
+    cursor: default;
+}
+
+button:hover:not(:disabled) {
+    background-color: #3a46d9;
+}
+
+#number_history {
+    margin-top: 20px;
+    font-size: 1rem;
+    color: #555;
+}
